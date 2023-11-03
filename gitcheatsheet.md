@@ -14,7 +14,10 @@
 
 - `git branch`: Lists all the branches in the repository.
 - `git branch <branch_name>`: Creates a new branch.
+- `git branch -d <branch_name>`: Delete branch.
 - `git checkout <branch_name>`: Switches to the specified branch.
+- `git checkout -b <branch_name>`: Create and switch to a new branch.
+- `git switch <branch_name>`: Switches to the specified branch more user-friendly than *git checkout*
 - `git merge <branch_name>`: Merges changes from the specified branch into the current branch.
 - `git pull`: Fetches changes from a remote repository and merges them into the current branch.
 - `git push`: Pushes your local commits to a remote repository.
@@ -32,12 +35,12 @@
 - `git reset --hard <commit_hash>`: Resets the repository to a specific commit, discarding all changes after that commit.
 - `git revert <commit_hash>`: Creates a new commit that undoes the changes made in a specific commit.-->
 
-<!--## Stashing
+## Stashing
 
 - `git stash`: Temporarily saves changes that are not ready to be committed.
 - `git stash apply`: Applies the latest stash to the working directory.
 - `git stash list`: Lists all stashes.
-- `git stash pop`: Applies and removes the latest stash.-->
+- `git stash pop`: Applies and removes the latest stash.
 
 ## Tags
 
