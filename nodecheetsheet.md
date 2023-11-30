@@ -15,6 +15,15 @@ now choose your node version, here it's 16
 ```
 nvm install 16
 ```
+
+
+
+Install NPM and PNPM
+
+    sudo apt install npm
+    npm install -g pnpm
+
+
 source :
 [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 
