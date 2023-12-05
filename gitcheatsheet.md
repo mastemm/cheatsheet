@@ -61,3 +61,9 @@
 | `git config --global user.email "your@email.com"`| Sets your email address for Git|
 
 *[for More command click here](https|//ndpsoftware.com/git-cheatsheet.html#loc=index;)*
+- `git config --global user.name "Your Name"`: Sets your username for Git.
+- `git config --global user.email "your@email.com"`: Sets your email address for Git.
+
+*[for More command click here](https://ndpsoftware.com/git-cheatsheet.html#loc=index;)*
+
+[remove .env from git history](https://algerwrites.medium.com/how-to-remove-env-from-git-commit-history-1d594917b376)
