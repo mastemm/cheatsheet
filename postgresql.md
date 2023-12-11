@@ -23,3 +23,22 @@ sudo -u postgres psql
 
 
 
+# Manjaro install 
+
+update package
+```
+pacman -Syu
+```
+install
+```
+pacman -S postgresql
+```
+check version
+```
+postgres --version
+```
+
+install pgcli
+```
+ pamac install pgcli
+```
